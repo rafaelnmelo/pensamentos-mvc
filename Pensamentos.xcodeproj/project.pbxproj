@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		A9A165EA24254BF100F9CDF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A165E924254BF100F9CDF5 /* AppDelegate.swift */; };
 		A9A165EC24254BF100F9CDF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A165EB24254BF100F9CDF5 /* SceneDelegate.swift */; };
-		A9A165EE24254BF100F9CDF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A165ED24254BF100F9CDF5 /* ViewController.swift */; };
 		A9A165F124254BF100F9CDF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A165EF24254BF100F9CDF5 /* Main.storyboard */; };
 		A9A165F324254BF200F9CDF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A165F224254BF200F9CDF5 /* Assets.xcassets */; };
 		A9A165F624254BF200F9CDF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A165F424254BF200F9CDF5 /* LaunchScreen.storyboard */; };
+		A9A165FF2425509000F9CDF5 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = A9A165FD2425509000F9CDF5 /* quotes.json */; };
+		A9A166002425509000F9CDF5 /* Savoye LET.ttc in Resources */ = {isa = PBXBuildFile; fileRef = A9A165FE2425509000F9CDF5 /* Savoye LET.ttc */; };
+		A9BD429F2429069900D52028 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BD429E2429069900D52028 /* QuotesViewController.swift */; };
+		A9BD42A1242906C400D52028 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BD42A0242906C400D52028 /* SettingsViewController.swift */; };
+		A9BD42A52429114200D52028 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BD42A42429114200D52028 /* Quote.swift */; };
+		A9BD42A82429117400D52028 /* QuotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BD42A72429117400D52028 /* QuotesManager.swift */; };
+		A9BD42AA242911D300D52028 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BD42A9242911D300D52028 /* Configuration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A9A165E624254BF100F9CDF5 /* Pensamentos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pensamentos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A165E924254BF100F9CDF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9A165EB24254BF100F9CDF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A9A165ED24254BF100F9CDF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A9A165F024254BF100F9CDF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9A165F224254BF200F9CDF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9A165F524254BF200F9CDF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9A165F724254BF200F9CDF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9A165FD2425509000F9CDF5 /* quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
+		A9A165FE2425509000F9CDF5 /* Savoye LET.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Savoye LET.ttc"; sourceTree = "<group>"; };
+		A9BD429E2429069900D52028 /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
+		A9BD42A0242906C400D52028 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A9BD42A42429114200D52028 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		A9BD42A72429117400D52028 /* QuotesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesManager.swift; sourceTree = "<group>"; };
+		A9BD42A9242911D300D52028 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +70,51 @@
 			children = (
 				A9A165E924254BF100F9CDF5 /* AppDelegate.swift */,
 				A9A165EB24254BF100F9CDF5 /* SceneDelegate.swift */,
-				A9A165ED24254BF100F9CDF5 /* ViewController.swift */,
-				A9A165EF24254BF100F9CDF5 /* Main.storyboard */,
+				A9A16601242550A400F9CDF5 /* Files */,
+				A9BD42A62429114600D52028 /* Models */,
+				A9BD42A32429070C00D52028 /* Views */,
+				A9BD42A2242906F900D52028 /* Controllers */,
 				A9A165F224254BF200F9CDF5 /* Assets.xcassets */,
-				A9A165F424254BF200F9CDF5 /* LaunchScreen.storyboard */,
 				A9A165F724254BF200F9CDF5 /* Info.plist */,
 			);
 			path = Pensamentos;
+			sourceTree = "<group>";
+		};
+		A9A16601242550A400F9CDF5 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9A165FD2425509000F9CDF5 /* quotes.json */,
+				A9A165FE2425509000F9CDF5 /* Savoye LET.ttc */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		A9BD42A2242906F900D52028 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A9BD429E2429069900D52028 /* QuotesViewController.swift */,
+				A9BD42A0242906C400D52028 /* SettingsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A9BD42A32429070C00D52028 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A9A165EF24254BF100F9CDF5 /* Main.storyboard */,
+				A9A165F424254BF200F9CDF5 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A9BD42A62429114600D52028 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A9BD42A42429114200D52028 /* Quote.swift */,
+				A9BD42A72429117400D52028 /* QuotesManager.swift */,
+				A9BD42A9242911D300D52028 /* Configuration.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +175,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9A165FF2425509000F9CDF5 /* quotes.json in Resources */,
 				A9A165F624254BF200F9CDF5 /* LaunchScreen.storyboard in Resources */,
 				A9A165F324254BF200F9CDF5 /* Assets.xcassets in Resources */,
+				A9A166002425509000F9CDF5 /* Savoye LET.ttc in Resources */,
 				A9A165F124254BF100F9CDF5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +190,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9A165EE24254BF100F9CDF5 /* ViewController.swift in Sources */,
+				A9BD429F2429069900D52028 /* QuotesViewController.swift in Sources */,
 				A9A165EA24254BF100F9CDF5 /* AppDelegate.swift in Sources */,
+				A9BD42AA242911D300D52028 /* Configuration.swift in Sources */,
 				A9A165EC24254BF100F9CDF5 /* SceneDelegate.swift in Sources */,
+				A9BD42A52429114200D52028 /* Quote.swift in Sources */,
+				A9BD42A82429117400D52028 /* QuotesManager.swift in Sources */,
+				A9BD42A1242906C400D52028 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
