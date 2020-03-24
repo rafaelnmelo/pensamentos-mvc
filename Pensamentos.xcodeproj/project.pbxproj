@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9051C55242A3B7000C42E51 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A9051C54242A3B7000C42E51 /* Settings.bundle */; };
 		A9A165EA24254BF100F9CDF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A165E924254BF100F9CDF5 /* AppDelegate.swift */; };
 		A9A165EC24254BF100F9CDF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A165EB24254BF100F9CDF5 /* SceneDelegate.swift */; };
 		A9A165F124254BF100F9CDF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A165EF24254BF100F9CDF5 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A9051C54242A3B7000C42E51 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		A9A165E624254BF100F9CDF5 /* Pensamentos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pensamentos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A165E924254BF100F9CDF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9A165EB24254BF100F9CDF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 			children = (
 				A9A165E924254BF100F9CDF5 /* AppDelegate.swift */,
 				A9A165EB24254BF100F9CDF5 /* SceneDelegate.swift */,
+				A9051C54242A3B7000C42E51 /* Settings.bundle */,
 				A9A16601242550A400F9CDF5 /* Files */,
 				A9BD42A62429114600D52028 /* Models */,
 				A9BD42A32429070C00D52028 /* Views */,
@@ -179,6 +182,7 @@
 				A9A165F624254BF200F9CDF5 /* LaunchScreen.storyboard in Resources */,
 				A9A165F324254BF200F9CDF5 /* Assets.xcassets in Resources */,
 				A9A166002425509000F9CDF5 /* Savoye LET.ttc in Resources */,
+				A9051C55242A3B7000C42E51 /* Settings.bundle in Resources */,
 				A9A165F124254BF100F9CDF5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
